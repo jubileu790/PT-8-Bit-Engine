@@ -1,0 +1,121 @@
+{
+  "_resourceType": "script",
+  "id": "19b5cfd5-2760-4815-94e2-0bdf26c65b4b",
+  "name": "Moveset: Grab",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT",
+      "args": {
+        "state": "9",
+        "__scriptTabs": "scriptinput"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "0130d6f3-00dc-40d9-958d-7a21e4aef31f"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "324e2a75-0b7a-47f7-b78f-b01627552e6e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "42",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "9fcb3149-69b0-46dd-9ab6-68fd0171b890"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "7c0b77e3-6e36-4291-b708-3c6d1b8000f9"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "4fd50205-e66e-43bc-8bb4-e52e3750c082"
+            },
+            "id": "795d9129-561e-4ec7-96dc-57ec066c52fb"
+          }
+        ]
+      },
+      "id": "f75d88b8-cd5d-4b1b-aac9-224e31c02858"
+    },
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT",
+      "args": {
+        "state": "11",
+        "__scriptTabs": "scriptinput"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "3a225c56-0ed9-4391-a587-2201f68791d1"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "792fde89-e0f8-4913-9f6d-d68262448901"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "42",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "2b1289ba-433a-4f6a-b44c-e1934a5c2597"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "be982ac5-c7f1-4d1e-8a1a-1711f451a85e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e7ed8755-be34-4379-be9b-69521018d844"
+            },
+            "id": "3ba57bcc-0ff8-41cd-87ce-54d40f5ff7ca"
+          }
+        ]
+      },
+      "id": "41321f76-54c6-4981-aa5a-01fe6ce4126b"
+    }
+  ]
+}

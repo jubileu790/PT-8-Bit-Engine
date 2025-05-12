@@ -1,0 +1,123 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "ff2f5e38-1636-466a-93f4-334b6356d466",
+  "startX": 3,
+  "startY": 16,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 3,
+  "startDirection": "right",
+  "showCollisionExtraTiles": true,
+  "showCollisionTileValues": false,
+  "collisionLayerOpacity": 60,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "dmg",
+    "36e43032-3c63-4990-ae52-6522240fe93a"
+  ],
+  "defaultSpritePaletteIds": [
+    "default-sprite",
+    "073d5870-ff72-415c-a8a0-19d5e0ba2d2f",
+    "d2b54730-4fa9-4c6b-a72b-7a4da9342b9e",
+    "dmg",
+    "b48239ac-f267-4721-90d6-205fb9193fb6",
+    "6815033b-750b-48c8-a271-bf12e4d584dc",
+    "dmg",
+    "661bf1ab-76b9-4f1e-a80e-679f0ee23a01"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "",
+    "PLATFORM": "a704a9d5-e830-4d5a-b034-0488e29d8720",
+    "ADVENTURE": "",
+    "SHMUP": "",
+    "POINTNCLICK": "",
+    "LOGO": ""
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w",
+    "W"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s",
+    "S"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a",
+    "A"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d",
+    "D"
+  ],
+  "customControlsA": [
+    "m",
+    "M"
+  ],
+  "customControlsB": [
+    "Control"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "color",
+  "colorCorrection": "default",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "29af3381-118c-40e5-88ab-5dbf5da31d44": {
+        "id": "29af3381-118c-40e5-88ab-5dbf5da31d44",
+        "name": "Preset 1",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 7,
+          "maxHeight": 8,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": true,
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "any",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
+  "scriptEventDefaultPresets": {
+    "EVENT_TEXT": "29af3381-118c-40e5-88ab-5dbf5da31d44"
+  },
+  "runSceneSelectionOnly": false
+}

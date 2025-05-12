@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "ff2f5e38-1636-466a-93f4-334b6356d466",
+  "_index": 0,
+  "name": "Mapa 2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 90,
+  "height": 36,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0046b+20!0f24+00!0f!0032+202+0f24+00!0f!0031+203+0f24+00!0f!0030+204+0f24+00!0f!002f+205+0f24+00!0f59+00!0f3b+001f+0f3b+001f+0f3b+001f+0f3b+001f+0f3b+00!0f59+00!0f59+0020+0f3a+0020+0f3a+0020+0f3a+0019+0f41+0019+0f41+0019+0f41+0019+0f41+0019+0f16f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 472.0000166459522,
+  "y": 1039.2727596566706,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e5d47692-fa18-4c30-b95b-f871d121a499"
+      },
+      "id": "28e6623f-c140-4a72-a4ba-293b6207904b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
