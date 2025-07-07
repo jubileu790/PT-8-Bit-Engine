@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "980fba1a-85da-4a2b-b990-4a6adb1bbf5a",
+  "name": "combobar_tileset",
+  "symbol": "tileset_combobar_tileset",
+  "width": 3,
+  "height": 23,
+  "imageWidth": 24,
+  "imageHeight": 184,
+  "filename": "combobar_tileset.png"
+}

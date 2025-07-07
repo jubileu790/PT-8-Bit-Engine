@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "7253478f-475d-43a5-89c4-77d3b63c4885",
+  "name": "HUD (Draw Overlay)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_37",
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+      "args": {
+        "speedIn": 0,
+        "speedOut": 0,
+        "speed": 0,
+        "allowFastForward": false
+      },
+      "id": "24511617-063f-427a-bbea-77f78a4cb7eb"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SHOW 0, 16, .UI_COLOR_WHITE, 0"
+      },
+      "id": "7660adf0-da7e-4af9-b63f-9be3543886d0"
+    },
+    {
+      "command": "EVENT_REPLACE_TILESET_TILES",
+      "args": {
+        "tilesetId": "980fba1a-85da-4a2b-b990-4a6adb1bbf5a",
+        "idx_target_tile": {
+          "type": "number",
+          "value": 128
+        },
+        "idx_start_tile": {
+          "type": "number",
+          "value": 0
+        },
+        "tile_length": 60,
+        "__collapse": false
+      },
+      "id": "41aaef42-1b80-495f-b2c8-f0755b91f700"
+    }
+  ]
+}

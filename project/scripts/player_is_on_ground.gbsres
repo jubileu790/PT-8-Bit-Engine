@@ -1,0 +1,69 @@
+{
+  "_resourceType": "script",
+  "id": "7bd94118-f119-47ae-ab6c-39983ff0d206",
+  "name": "Player Is On Ground",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_14",
+  "script": [
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT",
+      "args": {
+        "state": "3",
+        "__scriptTabs": "scriptinput"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "29",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "a2a9eb44-e00e-4a67-9266-d318b456a3d5"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "4a4acb8a-6044-4034-8838-8a4b75c51e93"
+          }
+        ]
+      },
+      "id": "85364ac0-5f63-492b-b081-6ede891ab5dd"
+    },
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT",
+      "args": {
+        "state": "5",
+        "__scriptTabs": "scriptinput"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "29",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "2d388ca9-2f74-4b91-a03e-e53b3fc155da"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "2a18d97b-14cb-4f9b-a734-ffc7f8b4b631"
+          }
+        ]
+      },
+      "id": "68d0f448-f4c0-44ff-bcb4-c2de93d9f630"
+    }
+  ]
+}

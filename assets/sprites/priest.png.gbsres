@@ -1,0 +1,180 @@
+{
+  "_resourceType": "sprite",
+  "id": "db77a748-e848-4c22-8786-1a46059b9f2b",
+  "name": "priest",
+  "symbol": "sprite_priest",
+  "states": [
+    {
+      "id": "af087c5d-6558-41ab-8476-999e2ab91ab1",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "aaf3daae-3d6f-4fc1-b0a6-560ae4dc3293",
+          "frames": [
+            {
+              "id": "fbe44344-80f5-40e0-bbfd-201a3c8e1ea7",
+              "tiles": [
+                {
+                  "id": "2dc8436b-40a5-44d9-b107-1de317becc81",
+                  "x": -4,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "370ebe19-dba1-4a3f-ba3c-84db20df2e37",
+                  "x": -4,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "929583a5-5c49-469f-9bbb-303e8f2c8271",
+                  "x": 4,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "b24e6958-34a0-437e-8c0c-0f2cb634cb09",
+                  "x": 4,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "1abce30b-5893-426a-a189-3753ee9bbcb4",
+                  "x": 12,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "37cd8a6b-4762-48c6-bd34-9e837306fb02",
+                  "x": 12,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4843b207-2f6f-47aa-9737-8308e3107b41",
+          "frames": [
+            {
+              "id": "6bad9ea6-4d75-48f9-8703-9a16584ba3d1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "52f507c0-997e-4fb4-8bb0-d9ea2517dcac",
+          "frames": [
+            {
+              "id": "61cedacb-47c0-46e5-9f69-efbb3133598b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c7b097d4-420f-4123-844a-a382cad33935",
+          "frames": [
+            {
+              "id": "2efd5b7a-a029-4595-9298-13da35c48d5d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9f257dbf-fdf8-4f30-8edb-d87419bb977d",
+          "frames": [
+            {
+              "id": "5b4d5a1a-854e-483a-acbb-3b4179310376",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "00bc5f1d-fab5-4f83-924b-32404c1a2ef5",
+          "frames": [
+            {
+              "id": "7a6b391f-4506-461e-92dd-9a20a350d014",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "08233603-17e0-4fe7-ac01-81f1cffec395",
+          "frames": [
+            {
+              "id": "32892349-fc17-442c-8993-c5d79934e453",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee9ea43f-bc72-48cb-94f4-999ad24ac07e",
+          "frames": [
+            {
+              "id": "41a4409e-e451-4756-9f36-88a254122b96",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasWidth": 24,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "priest.png",
+  "width": 24,
+  "height": 32,
+  "checksum": "9bacb9475f3812f070845c7063c2bef218478399",
+  "numFrames": 1.5
+}

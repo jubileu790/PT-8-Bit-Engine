@@ -1,0 +1,62 @@
+{
+  "_resourceType": "trigger",
+  "id": "dce3a7da-fdcb-4642-8f05-bd5d5ec7fdcb",
+  "name": "Collectables 4",
+  "prefabId": "",
+  "x": 20,
+  "y": 22,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "54",
+        "flag": 3,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "54",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": true,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": false
+            },
+            "id": "7e29405b-04aa-459f-afea-bd7566a51a24"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "1dc79df1-d82b-41f2-b8cf-760f8c1722b2",
+              "$actor[0]$": "133dbdb2-22c2-4c9f-8d5e-8b99b4c106f3"
+            },
+            "id": "564edb56-99ec-4dd3-82a1-4270cad2e426"
+          }
+        ]
+      },
+      "id": "fd1186d2-49b4-4e14-80b3-9889dd5594ee"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

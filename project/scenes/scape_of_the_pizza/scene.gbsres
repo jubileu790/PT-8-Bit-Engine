@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "b77d7192-c94c-437a-80c8-5a5a5a41c784",
+  "_index": 1,
+  "type": "PLATFORM",
+  "name": "scape of the pizza",
+  "symbol": "scene_0",
+  "x": 2264,
+  "y": 728,
+  "width": 94,
+  "height": 44,
+  "backgroundId": "11b7de7b-42b1-4a2b-9254-886af2286420",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [
+    "",
+    "3fc60b14-3130-4d1e-972c-d1dea162149c"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e5d47692-fa18-4c30-b95b-f871d121a499"
+      },
+      "id": "50d6ffd4-7838-496a-b4b9-c119ec8ae916"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f1b7+008+0f6+006+0f4a+008+0f6+006+0f4a+0014+0f4a+0014+0f4a+0014+0f4a+002+0f4+00a+0f4e+0014+0f28+00f+0f13+0014+0f28+00f+0f13+009+0f4+007+0f28+00f+0f13+0014+0f28+00f+0f13+0014+0f28+00f+0f13+0010+0f2c+009+0f17+0016+0f28+009+0f17+0016+0f28+009+0f17+00b+0f4+007+0f16+001b+0f2+002b+0f16+001b+0f2+002b+0f16+001b+0f2+0019+0f4+00e+0f16+001b+0f2+002b+0f16+005+0f3+30!003f+0f16+005+0f3+302+002b+20!0f28+005+0f3+303+0029+202+0f28+005+0fd+004+0fd+0010+203+0f28+005+0fd+004+0fd+00f+204+0f28+005+0f59+30!00e+0f4f+302+00d+0f2+0020+0f2d+303+002e+0f2d+304+001e+0f3+00c+0f2d+305+001d+0f3+00c+0f52+00c+0f52+00c+0f52+00c+0f52+00c+0f52+00c+0f52+00c+0f19a+"
+}

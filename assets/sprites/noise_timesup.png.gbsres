@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "ba2ff39e-efdd-4a7a-904c-681a7e7df88d",
+  "name": "noise_timesup",
+  "symbol": "sprite_noise_timesup",
+  "states": [
+    {
+      "id": "df22227f-d2a3-42bd-bc67-9cd602bf189f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "beabf799-f7a9-45d4-a663-11e4547ddcc3",
+          "frames": [
+            {
+              "id": "cd9237fc-7b08-42ea-9571-321e0f12403d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7c4ef86-2170-4870-a852-9e1b6d823e2d",
+          "frames": [
+            {
+              "id": "4598cc10-ec1c-45cf-be80-a1464733f855",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8156b598-8ae3-474f-92d5-02b7cb661c6d",
+          "frames": [
+            {
+              "id": "c249e0f3-ada0-4d5e-b73b-f80715221bdb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "59cbbde3-1fe4-4c33-9771-f6338f147d12",
+          "frames": [
+            {
+              "id": "1cc79b96-12df-46d8-8eae-fd8fe9acd471",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "871bd3ce-99a8-43c4-b3a5-68b71b617cc1",
+          "frames": [
+            {
+              "id": "47da8813-53cf-4c95-b402-15392a0720d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cc53a16b-e2bc-4497-b211-bf2921fb8762",
+          "frames": [
+            {
+              "id": "ceb31493-7acd-41b4-80d8-6fdaee899bd0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f46fd32b-d09d-424a-b314-68086bcf4629",
+          "frames": [
+            {
+              "id": "ff4b80c0-bf22-4b74-9fc9-67d432f1a725",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "38d6d1b5-1844-4851-b9c0-aa51abd48922",
+          "frames": [
+            {
+              "id": "3e3f6f6c-b41e-4171-abf4-1e039a1f2ffb",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "noise_timesup.png",
+  "width": 48,
+  "height": 48,
+  "checksum": "a621804e13d7fa1bc7f105ba451f3c3a61aa8e09",
+  "numFrames": 3
+}

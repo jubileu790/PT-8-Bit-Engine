@@ -1,0 +1,80 @@
+{
+  "_resourceType": "script",
+  "id": "0ede0ddf-5951-4ac6-8e2b-04a0afe63705",
+  "name": "Moveset (P Knight): Screen Shake",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT",
+      "args": {
+        "state": "3",
+        "__scriptTabs": "scriptinput"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "5bda7eaa-8987-4bb0-ab3e-12d33722d2ef",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 22
+            },
+            "id": "c639cedc-cda2-4cac-a468-23fc65301d69"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "bfe2f880-8750-47cf-b15d-25986e0281b5"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.25,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "19891b79-3f1b-456f-975e-449ecd5c94ce"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "81b138f8-3964-4854-be3f-9ab110e2c1a3"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "29",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "4c35af83-729f-4f92-b3f1-dc135c255f7c"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "0a74d69e-9f51-4046-baf9-9de85c2e9aa5"
+          }
+        ]
+      },
+      "id": "b68be458-e663-4228-96f9-2883a4beb40f"
+    }
+  ]
+}

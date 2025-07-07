@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "36f6fd37-408e-43fa-a25d-3a54079896ef",
+  "name": "sfx_bigcollect.vgm",
+  "symbol": "sound_sfx_bigcollect_vgm",
+  "type": "vgm",
+  "filename": "sfx_bigcollect.vgm"
+}

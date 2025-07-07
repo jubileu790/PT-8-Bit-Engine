@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "c8c87875-d7d8-485b-835e-1fe851ee3e3c",
+  "name": "invisible door",
+  "symbol": "sprite_invisible_level_gate",
+  "states": [
+    {
+      "id": "748a7bf9-6627-4633-8a71-20a56f540af7",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5b0caf88-85f1-4609-97d1-89a7da1f6a54",
+          "frames": [
+            {
+              "id": "55e3fd39-fcaf-4f6f-87d7-7ae47b482cf7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf5588fb-b7ff-415c-babd-8d96f85c8cb5",
+          "frames": [
+            {
+              "id": "e043f920-0d9b-4f6e-9976-c79c44c23747",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c66df894-bebe-4b88-a5cc-a0e58cf37386",
+          "frames": [
+            {
+              "id": "ed5c2197-0817-497d-a876-015d7337ab99",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ff364e3-98cf-4793-a8d9-7c1b83c3d0e1",
+          "frames": [
+            {
+              "id": "24355a3c-0475-4e8f-ae17-cb2de5297391",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "09f0c45a-56b9-493f-aa96-5032091bd880",
+          "frames": [
+            {
+              "id": "e867f13d-5993-4d64-af0a-5915c836b7bc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e2735cec-5b1f-4d76-bc59-c31da24bb640",
+          "frames": [
+            {
+              "id": "853599ef-9e6b-4375-b7ff-d99225eb50ee",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "12119caa-d36e-4fc0-b459-9c0fe45d2c66",
+          "frames": [
+            {
+              "id": "dc819f40-2afd-4e10-b937-cae69d08d02b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5ab74d4f-bc78-4992-a06d-042e3f3f4517",
+          "frames": [
+            {
+              "id": "f3141e3b-a5f1-429d-a030-bd1087e0e161",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": -4,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "invisible door.png",
+  "width": 12,
+  "height": 8,
+  "checksum": "1133469ae93dd351f303229be979c3937ab7505d",
+  "numFrames": 0.75
+}

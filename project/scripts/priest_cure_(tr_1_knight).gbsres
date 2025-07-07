@@ -1,0 +1,243 @@
+{
+  "_resourceType": "script",
+  "id": "c9452cfd-16d6-4abd-8194-4ab74d8699cd",
+  "name": "Priest Cure (Tr. 1 Knight)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_30",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "77",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
+      },
+      "id": "97ec373b-bbfc-4bbe-adfc-3bd46ff7c353"
+    },
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "80"
+      },
+      "id": "ffa4e220-6e0a-48f9-8dbd-e69997605f26"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "83",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "d3bf248b-1a7b-41a9-8c4f-ccb35f88eb37"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "112",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "c1414971-4f40-477b-87f1-bfcc0befd4a9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "111",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "68f261a6-a20d-450d-9c81-7771a82f03aa"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "right",
+          "left",
+          "a"
+        ]
+      },
+      "id": "c8fefaa3-148e-4107-80a1-5536afacbec8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "d8d8ea0d-b421-49f3-befd-2ad4a7b84f54"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "106"
+        },
+        "__collapse": true
+      },
+      "id": "2367fd06-1db2-4467-814b-99d6e7d3ab17"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_run_vel",
+        "value": {
+          "type": "variable",
+          "value": "103"
+        },
+        "__collapse": true
+      },
+      "id": "62bffba4-49e1-4c9f-8a5d-b8f1ed524038"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_climb_vel",
+        "value": {
+          "type": "variable",
+          "value": "110"
+        },
+        "__collapse": true
+      },
+      "id": "27c27f74-3852-46b4-8dec-659f972e2b6c"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "variable",
+          "value": "107"
+        },
+        "__collapse": true
+      },
+      "id": "0e3a56fc-4037-4a9d-bc00-4e0cd86b2a58"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "variable",
+          "value": "108"
+        },
+        "__collapse": true
+      },
+      "id": "204193ef-74a3-4622-9777-f76bfef811bf"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_slide",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "a829d6b0-3002-424f-8ec6-4afa79739b01"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_jump_max",
+        "value": {
+          "type": "number",
+          "value": 255
+        },
+        "__collapse": true
+      },
+      "id": "3800ac05-a288-4fcf-9cb8-765dff074fe1"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_dash",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": true
+      },
+      "id": "a9e3bef2-c667-4386-880d-6b831ec8c256"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_extra_jumps",
+        "__collapse": true
+      },
+      "id": "dbb43e32-a95f-4cf5-8c54-2a89b1e4828e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "41"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4c26d8b5-d924-4b9f-b41f-d7d91953c924"
+            },
+            "id": "238a6ec5-05e8-4f0b-8519-28a8b7f188be"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "334763ce-bc81-497b-a529-846e4dd029e3"
+            },
+            "id": "20ab59f7-30b9-458b-831a-f1fe4d005e39"
+          }
+        ]
+      },
+      "id": "6f4defdb-025c-4709-badf-3c889f6e9bae"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "5bda7eaa-8987-4bb0-ab3e-12d33722d2ef",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 5
+      },
+      "id": "a8d82ba5-6c6b-4972-8d3e-72096c9595da"
+    }
+  ]
+}

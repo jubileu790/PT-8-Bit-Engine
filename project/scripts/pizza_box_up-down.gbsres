@@ -1,0 +1,169 @@
+{
+  "_resourceType": "script",
+  "id": "56b298bb-e6fa-4481-b74e-2cf0efac5402",
+  "name": "Pizza Box Up-Down",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_36",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "3ae11e5d-3e40-4533-b16e-6a0b4a959558"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "55",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "d65c7160-3736-4cbd-a609-2c9b3e732f70"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "38",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "bea37c52-d5f2-4ab4-9812-51db79cc6778"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "b5adec70-d4ac-4945-9583-684817bc97cd"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "b5f39b69-fe9a-4bcd-9b3a-24ae86a8b643"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "8a6600cb-8c6f-4e4a-8f8a-90fba747d0e7"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "324296d5-7d80-4bbc-b09c-4228134aecac"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "106"
+        },
+        "__collapse": true
+      },
+      "id": "86233fc9-fd48-4bd5-87e9-dba754986c3a"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_run_vel",
+        "value": {
+          "type": "variable",
+          "value": "103"
+        },
+        "__collapse": true
+      },
+      "id": "ebc884f4-a47b-4cfa-8cb7-a00bfd4f2267"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_climb_vel",
+        "value": {
+          "type": "variable",
+          "value": "110"
+        },
+        "__collapse": true
+      },
+      "id": "b5a8feb6-e270-4fd6-82e0-39d9df740072"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "variable",
+          "value": "107"
+        },
+        "__collapse": true
+      },
+      "id": "43aca206-a5dd-4c96-8f70-141802080efe"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "variable",
+          "value": "108"
+        },
+        "__collapse": true
+      },
+      "id": "802f5448-8ffb-46cf-8cc6-d8e70ac23be4"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_dash",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "f1786f2c-a57a-48f1-8eff-1a134e4507e6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "7afde161-345d-467c-bc6a-56deedb24016"
+    }
+  ]
+}

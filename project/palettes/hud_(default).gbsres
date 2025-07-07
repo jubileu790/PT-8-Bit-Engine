@@ -1,0 +1,11 @@
+{
+  "_resourceType": "palette",
+  "id": "36e43032-3c63-4990-ae52-6522240fe93a",
+  "name": "HUD (Default)",
+  "colors": [
+    "feb01e",
+    "ffff43",
+    "ff1f00",
+    "000000"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0b9e78d1-c8f5-42a4-afe5-ff9e3a8974b9",
+  "name": "noise_wallbounce",
+  "symbol": "sprite_noise_wallbounce",
+  "states": [
+    {
+      "id": "1764c31f-aedf-4413-bd02-64e0914a6ac0",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "dc0ab952-fea0-4d7e-af0d-348805dbf87f",
+          "frames": [
+            {
+              "id": "9b512e6b-9b26-438a-81df-9362974fd26e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "078a27e6-1303-487c-8180-a0b2b0630714",
+          "frames": [
+            {
+              "id": "63f4e862-ad94-4f3e-86d7-b4d8de1a457c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "57e72358-61ef-4231-b033-540099fc35d1",
+          "frames": [
+            {
+              "id": "5e7b9cd8-df88-499e-9de0-f0642cca154c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "574729eb-315b-4394-941e-2bb52905b5cb",
+          "frames": [
+            {
+              "id": "7db8c995-7c20-4854-858b-f168ee014c85",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "53882166-1146-44bd-9469-a0eee1ee93ed",
+          "frames": [
+            {
+              "id": "706babf2-9e55-4732-8d01-656cdda5271f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a0d3f22-bb66-4f36-b0ed-10e5de622fa3",
+          "frames": [
+            {
+              "id": "6dc68fe8-7627-41d0-b3a3-5c1092d69e28",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "009c275f-95c2-4b1e-bb73-ff383d0db5a5",
+          "frames": [
+            {
+              "id": "a868079b-e723-4ae0-a109-bf3c11f662fe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e4787391-28ee-454e-b16f-760d97194703",
+          "frames": [
+            {
+              "id": "88c5d14d-bc07-44c1-8393-c9fb5d9f208e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "noise_wallbounce.png",
+  "width": 96,
+  "height": 32,
+  "checksum": "e97ac61a17e873efc49afd03650d0f4686b72c5d"
+}

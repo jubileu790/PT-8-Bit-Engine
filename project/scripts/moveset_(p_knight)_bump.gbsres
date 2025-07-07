@@ -1,0 +1,182 @@
+{
+  "_resourceType": "script",
+  "id": "d646a9bc-1c65-45de-86f9-6e6cca7773ba",
+  "name": "Moveset (P Knight): Bump",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_29",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "0b27fcc7-02f1-4fcc-9cfb-24706264fb06"
+    },
+    {
+      "command": "PT_EVENT_PLAYER_FIELD_SET",
+      "args": {
+        "field": "pl_vel_x",
+        "variable": "V0",
+        "value": 0,
+        "type": "number",
+        "__collapse": true
+      },
+      "id": "402af0ad-f7ca-4971-b259-ee8ea7de629a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "77",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "ca2c3db4-ce27-4f41-a5ac-9afca4381337"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "77",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "7c0223c0-080b-40c4-a03e-cf8880a97cf9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "83",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "99c2e1ac-4423-49f9-8df4-63e26cee4891"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "111",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "8f4462a1-de25-43b1-ac91-86c2250111a9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "112",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "83943a37-a475-44c3-b4b8-ea633d3c8322"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Bump",
+        "loopAnim": true
+      },
+      "id": "75537f78-b030-46c7-a8de-0ae3489e5697"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "5bda7eaa-8987-4bb0-ab3e-12d33722d2ef",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 22
+      },
+      "id": "972b6a90-494b-4589-a788-6c6b8d8b87bb"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.25,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0f056839-0a94-4392-ad60-33f9a3dd279e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "dc53ff4c-ff7a-4fb5-8613-9b92aabbb63d"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "right",
+          "a",
+          "select",
+          "down",
+          "up"
+        ]
+      },
+      "id": "7f19f0b6-90d8-4586-9d43-7e49e3e7bbd4"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "83aaa2a8-f8ac-4101-9342-48f6c2390869"
+      },
+      "id": "d00fa657-cc52-414e-aafd-46d71bebc0cc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "f3a821fb-26b4-48c0-b1b7-833ec3b37d49"
+    }
+  ]
+}

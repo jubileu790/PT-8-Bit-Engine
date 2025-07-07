@@ -1,0 +1,157 @@
+{
+  "_resourceType": "script",
+  "id": "4c26d8b5-d924-4b9f-b41f-d7d91953c924",
+  "name": "Moveset (Noise)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "aaed3f5e-1691-4c52-864c-7c9dcae37bb3",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": false
+      },
+      "id": "a044415a-1af3-4466-b27b-d59d40a3d885"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "32285f7c-e4e7-48f0-ae20-c8485df3a0e5"
+      },
+      "id": "a955d6cc-1d0b-4469-8221-88f16b3685df"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ENGINE_FIELD_STORE",
+            "args": {
+              "value": "106",
+              "engineFieldKey": "plat_walk_vel"
+            },
+            "id": "317a9c3b-fe78-4da6-aa51-119ebcc25748"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "105",
+              "value": {
+                "type": "number",
+                "value": 6250
+              },
+              "__collapse": false
+            },
+            "id": "85c5c952-ec09-449d-ac5e-f9dc254064ee"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "104",
+              "value": {
+                "type": "number",
+                "value": 7500
+              },
+              "__collapse": false
+            },
+            "id": "0961197b-cc67-4646-865a-ff7d98af4aa9"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_STORE",
+            "args": {
+              "value": "103",
+              "engineFieldKey": "plat_run_vel"
+            },
+            "id": "2f02d38b-be3a-4ca0-a53d-18f506901a33"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_STORE",
+            "args": {
+              "value": "107",
+              "engineFieldKey": "plat_grav"
+            },
+            "id": "ccdd99c4-d687-46e0-a33f-68fa4bf2cc47"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_STORE",
+            "args": {
+              "value": "108",
+              "engineFieldKey": "plat_hold_grav"
+            },
+            "id": "14683d5e-6723-4968-98fb-5841c17cfb3f"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_STORE",
+            "args": {
+              "value": "109",
+              "engineFieldKey": "plat_jump_vel"
+            },
+            "id": "8ed820a2-df8c-4a24-8b53-0f9f621b8aac"
+          }
+        ]
+      },
+      "id": "ae77a55f-a048-4829-8ed5-caee256ed83e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7bd94118-f119-47ae-ab6c-39983ff0d206"
+      },
+      "id": "616967e2-ef57-4868-9dcf-967cff0f06ea"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e7ed8755-be34-4379-be9b-69521018d844"
+      },
+      "id": "3b97c01b-31ce-4603-a6ea-47283f971dbf"
+    },
+    {
+      "command": "PM_EVENT_PLATPLUS_STATE_SCRIPT_CLEAR",
+      "args": {
+        "state": "2"
+      },
+      "id": "bd0468b6-20b7-4c94-acf8-3b8b8ceea5c7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ffc57bd2-ef76-453f-a9d2-df8a64f1222d"
+      },
+      "id": "175c49c7-49d6-47f5-ba6a-9b31b4967ff1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "19aadd9b-f215-4831-8113-4f01be2ca775"
+      },
+      "id": "1e5151f4-d50a-4eb1-af4a-2f29a68f3c3d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "19b5cfd5-2760-4815-94e2-0bdf26c65b4b"
+      },
+      "id": "3ea2d061-d254-4ba9-afa9-29ab70be282f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fdf854c4-4127-49bd-bfd7-8528d4fff66f"
+      },
+      "id": "bcf30522-7f18-49d5-a997-d2e0cd258f14"
+    }
+  ]
+}

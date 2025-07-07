@@ -1,0 +1,58 @@
+{
+  "_resourceType": "script",
+  "id": "6728e68c-8efe-4499-bb37-ea57e4ed73ae",
+  "name": "Rank Score (Tutorial)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "511"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "65",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "58961af5-e4a3-4c4c-ac2a-900fc556e6d1"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "65",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "a7fedefe-4c46-4e75-b671-31367655e581"
+          }
+        ]
+      },
+      "id": "d6a86925-f08a-457e-a7c8-76de7fafa151"
+    }
+  ]
+}

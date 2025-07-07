@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "5a09b440-ed8e-44c5-95af-44e01854e224",
+  "name": "noise_taunts",
+  "symbol": "sprite_noise_taunts",
+  "states": [
+    {
+      "id": "0acadf0f-1bf3-491e-80f0-8c381f8a4469",
+      "name": "",
+      "animationType": "platform_player",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b262dff6-762b-45a9-8e80-b2f390b14c4e",
+          "frames": [
+            {
+              "id": "985a5370-b413-414b-97e6-808b66558bbb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e8f5ab1-3d9f-45b9-a626-7cdbddd9001f",
+          "frames": [
+            {
+              "id": "d356a057-8199-4d9f-b2e1-75d942abbf27",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "030eaeba-b718-4502-87de-f6663079a664",
+          "frames": [
+            {
+              "id": "6599ccbb-bc86-4bc8-8315-4f24dec89d75",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30da06b3-5683-43b3-89d3-332a156e27a0",
+          "frames": [
+            {
+              "id": "42450acf-78ae-494c-91d1-375f75452c0f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b5a2a56-bf71-431a-9c55-f37153d5953c",
+          "frames": [
+            {
+              "id": "1e5cf4b4-36f6-4715-b310-5ebdffdd27a3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "65a49027-d8e5-46ff-9283-6fce6254cf77",
+          "frames": [
+            {
+              "id": "94de5467-106d-42c9-b814-43469fa8679a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bb0ad4c3-2a94-4225-bd46-02390a7c6deb",
+          "frames": [
+            {
+              "id": "6384c4bc-5f5f-44df-8293-6277be2aac0c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4a71b6f9-7034-4ccd-9f06-13849f69ad75",
+          "frames": [
+            {
+              "id": "d928c594-144a-4b53-b6f1-fe62295673d3",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "noise_taunts.png",
+  "width": 128,
+  "height": 96,
+  "checksum": "d29157e61eb8f5be19bdf08aeb96cacc0742938b",
+  "numFrames": 8
+}

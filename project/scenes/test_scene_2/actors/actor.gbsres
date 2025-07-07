@@ -1,0 +1,86 @@
+{
+  "_resourceType": "actor",
+  "id": "133dbdb2-22c2-4c9f-8d5e-8b99b4c106f3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3482463b-2c2a-4cef-b078-5c74ddfb673d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "54",
+        "flag": 3,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "ee97ec80-1562-46e7-a8ec-974cad759eac"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "72080835-6bda-47ba-ae87-b6bc525b4bb2"
+          }
+        ]
+      },
+      "id": "83eb5aed-df96-4adf-b828-72f1b03abc42"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "L0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "L0",
+        "value": "0",
+        "minValue": 0,
+        "maxValue": 4,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "1952b92f-cd1c-432b-94e5-839ba4221ec0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapse": false
+      },
+      "id": "6697c5dd-364a-47ae-8137-b360390bfdeb"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 23,
+  "_index": 0
+}

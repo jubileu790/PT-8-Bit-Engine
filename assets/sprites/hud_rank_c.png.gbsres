@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "c784f40b-ee20-40f0-bd02-da6329fe2a89",
+  "name": "hud_rank_c",
+  "symbol": "sprite_hud_rank_c",
+  "states": [
+    {
+      "id": "3df6056a-c652-4ca0-b546-3d76cc93cf75",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "d9860ecf-141d-4919-af6b-e6dd3a06be30",
+          "frames": [
+            {
+              "id": "80ddc68e-d678-44fc-b46d-ff8978bdae8c",
+              "tiles": [
+                {
+                  "id": "ec25f6ea-9767-4ef4-9d5a-5644fabf3bdc",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "00926624-7004-4d9e-b8e8-b3851abf4a2d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1d791577-74e3-43cd-8bdc-3d426ff1c3eb",
+          "frames": [
+            {
+              "id": "a25f3d44-99ca-439e-9bef-28ad027d2984",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4bd04ff0-136e-475f-9561-2c348cd6d6a4",
+          "frames": [
+            {
+              "id": "f643e48d-5ae9-4f62-aab5-757a47c45c60",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1819e539-0222-4ca4-ae82-d5f2fb1240bb",
+          "frames": [
+            {
+              "id": "23f8cf82-8fa2-4790-a79c-b8c1c79a9859",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5609cf85-ed0b-407b-ae4b-6d6a33d9c36c",
+          "frames": [
+            {
+              "id": "27b21efc-a695-4b8d-83b7-06ca1e389bb9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "398196f0-b004-47c3-85e4-1a9c913dbc7b",
+          "frames": [
+            {
+              "id": "28e3401e-46e3-4036-920c-77d30d810105",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "89eca41c-1054-47e4-ab68-31830ca77b87",
+          "frames": [
+            {
+              "id": "542d1e81-8816-4d54-a271-b1b14ac92279",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8be97254-70e1-4ee8-9887-69c9dc6e2bd6",
+          "frames": [
+            {
+              "id": "8dd1ed3d-ae07-4e76-b268-9993ccb6ecd9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "hud_rank_c.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "c048d91489e9840a194edcf16faac150a09c0724"
+}

@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "1ad7ee90-35bc-4ffb-b08a-a5ac10fef933",
+  "_index": 3,
+  "name": "Test Scene 2",
+  "backgroundId": "5cf1c272-0dd7-4a9a-b7a3-021d396c4cd0",
+  "tilesetId": "",
+  "width": 46,
+  "height": 36,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "dmg",
+    "",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2",
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0024b+0fb+0023+0fb+001cc+0f25+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f27+007+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 1480,
+  "y": 696,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e5d47692-fa18-4c30-b95b-f871d121a499"
+      },
+      "id": "8abc7d71-8964-4117-92a4-1102116cf562"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a704a9d5-e830-4d5a-b034-0488e29d8720"
+}

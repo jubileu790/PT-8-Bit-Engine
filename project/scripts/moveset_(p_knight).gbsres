@@ -1,0 +1,150 @@
+{
+  "_resourceType": "script",
+  "id": "0212df78-4c5d-4ba9-b9a4-4f803753f4c6",
+  "name": "Moveset (P Knight)",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118"
+      },
+      "id": "c0fb34c8-7e9f-4487-8982-56bc6645a9c7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "cbbb4ce7-008c-4a60-8097-18b40185dec1"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "fc9611c0-f549-4689-b2a9-269b219d0528",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "3499148f-900a-4908-b640-8b9189cd307b"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "83aaa2a8-f8ac-4101-9342-48f6c2390869"
+      },
+      "id": "cc02150b-af12-4b39-b022-1f0cb0700d25"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "77",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "aff6a223-0e42-42db-93f2-e634eed4a3b6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7bd94118-f119-47ae-ab6c-39983ff0d206"
+      },
+      "id": "fc4f5d87-864e-47c3-b49f-0546765d81e6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ede0ddf-5951-4ac6-8e2b-04a0afe63705"
+      },
+      "id": "1b972310-d1da-4a27-8d41-515005ed6a1a"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "085e605b-11ff-474f-9190-2dd994a9f45d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "4a576916-bc99-4e70-863b-93b1eededf43"
+      },
+      "id": "65c0e65d-b3eb-46a4-8d38-466a26723583"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_slide"
+      },
+      "id": "7c0860a5-1660-4f96-8bcf-e21dc9c265d9"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_jump_max"
+      },
+      "id": "ec2bdfcd-0bd3-46fc-83ad-ea32d925fe73"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_dash"
+      },
+      "id": "ff5a87fc-d8bc-4207-85fc-9c49cf7bc1e0"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_run_vel",
+        "value": {
+          "type": "variable",
+          "value": "106"
+        }
+      },
+      "id": "d2544eaf-5312-4396-b12c-c9cb3dc78887"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_climb_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "374b0ff1-f2f6-44fa-9d30-5cdbfe86e7bb"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_extra_jumps",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "b360df01-b0ff-4f36-ac69-0d42e4b05f04"
+    }
+  ]
+}

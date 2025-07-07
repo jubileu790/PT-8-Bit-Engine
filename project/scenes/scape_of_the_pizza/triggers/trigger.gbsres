@@ -1,0 +1,107 @@
+{
+  "_resourceType": "trigger",
+  "id": "ef06b7dc-724e-4c56-bd9b-71d198b3c140",
+  "name": "",
+  "prefabId": "",
+  "x": 65,
+  "y": 7,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "77"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "up"
+              ]
+            },
+            "id": "fed1b588-962c-42d4-a69c-2cb9f012c5c0"
+          }
+        ],
+        "false": []
+      },
+      "id": "2743c8ab-cf35-4bf7-baa8-bf89997a1c51"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "77"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "41"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "19aadd9b-f215-4831-8113-4f01be2ca775"
+                  },
+                  "id": "f43c0173-98c4-4fad-a381-968cc10b85ff"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "17eeb3b7-04e0-48d9-b2d9-b9cd6a2315f8"
+                  },
+                  "id": "5e126175-67fd-4989-ad4f-7a0df4df65ad"
+                }
+              ]
+            },
+            "id": "a03a2795-7f3d-4a6f-9891-dd64222f9d69"
+          }
+        ],
+        "false": []
+      },
+      "id": "4b662d0f-55ce-4db3-8d1d-1679ce380870"
+    }
+  ],
+  "_index": 0
+}

@@ -1,0 +1,46 @@
+{
+  "_resourceType": "script",
+  "id": "5489b3b4-5556-435a-9390-078cf0c05f9a",
+  "name": "Fix Animation Speed",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_31",
+  "script": [
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_dash",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "618a3675-8e73-418e-9ef0-238651e457d1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 3
+      },
+      "id": "2bc881f4-26c0-4d00-a47b-1bad5245e6aa"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "b792becb-0bc5-4bb5-a7ee-443ef0b00916"
+    },
+    {
+      "command": "PT_EVENT_PLAYER_FIELD_STORE",
+      "args": {
+        "field": "pl_vel_x",
+        "variable": "47"
+      },
+      "id": "7aa3cdbd-2cd6-4704-9846-e4deef473c56"
+    }
+  ]
+}
